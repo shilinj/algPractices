@@ -5,7 +5,12 @@ import (
 	"sync"
 )
 
-// 使用2个goroutine交替打印 1-10
+/*
+	使用2个goroutine交替打印数字
+	goroutine1 打印 1 3 5 7 9
+	goroutine2 打印 2 4 6 8 10
+*/
+
 func AlternatelyPrintV1() {
 	numChan := make(chan int)
 	exitChan := make(chan struct{})
