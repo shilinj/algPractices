@@ -6,7 +6,9 @@ import (
 )
 
 func main() {
+	// algorithm test code 
 	algorithm.AlternatelyPrintV2()
 
+	// concuurent test code
 	concurrent.TestGenInt()
 }
