@@ -3,7 +3,7 @@ package concurrent
 
 import (
 	"fmt"
-	"rand"
+	"math/rand"
 	"runtime"
 )
 
