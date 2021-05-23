@@ -1,4 +1,4 @@
-module algorithmPractices
+module algstu
 
 go 1.16
 
