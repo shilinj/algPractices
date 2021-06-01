@@ -33,6 +33,7 @@ func AlternatelyPrintV1() {
 			}
 		}
 	}()
+
 	<-exitChan
 }
 
