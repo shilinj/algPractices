@@ -1,14 +1,16 @@
 package main
 
 import (
-	"algstu/algorithm"
 	"algstu/concurrent"
 )
 
 func main() {
-	// algorithm test code 
-	algorithm.AlternatelyPrintV2()
+	// algorithm
+	// algorithm.AlternatelyPrintV2()
 
-	// concuurent test code
-	concurrent.TestGenInt()
+	// concurrent
+	concurrent.TestSyncCocurrent()
+	// concurrent.TestSyncWaitGroup()
+	// concurrent.TestCloseChToBroadcast1()
+	// concurrent.TestCloseChToBroadcast2()
 }
