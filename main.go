@@ -1,7 +1,7 @@
 package main
 
 import (
-	"algstu/concurrent"
+	"algstu/concurrence"
 )
 
 func main() {
@@ -9,7 +9,7 @@ func main() {
 	// algorithm.AlternatelyPrintV2()
 
 	// concurrent
-	concurrent.TestSyncCocurrent()
+	concurrence.TestSyncCocurrent()
 	// concurrent.TestSyncWaitGroup()
 	// concurrent.TestCloseChToBroadcast1()
 	// concurrent.TestCloseChToBroadcast2()
