@@ -1,15 +1,18 @@
 package main
 
 import (
-	"algstu/concurrence"
+	"algstu/algorithm"
 )
 
 func main() {
 	// algorithm
-	// algorithm.AlternatelyPrintV2()
+	algorithm.TestBubbleSort()
+
+	// interview
+	// interview.AlternatelyPrintV2()
 
 	// concurrent
-	concurrence.TestSyncCocurrent()
+	// concurrence.TestSyncCocurrent()
 	// concurrent.TestSyncWaitGroup()
 	// concurrent.TestCloseChToBroadcast1()
 	// concurrent.TestCloseChToBroadcast2()
