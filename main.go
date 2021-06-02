@@ -6,7 +6,8 @@ import (
 
 func main() {
 	// algorithm
-	algorithm.TestBubbleSort()
+	// algorithm.TestBubbleSort()
+	algorithm.TestSelectionSort()
 
 	// interview
 	// interview.AlternatelyPrintV2()
