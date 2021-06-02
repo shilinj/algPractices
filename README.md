@@ -5,6 +5,8 @@
 
 - 使用两个goroutine交替输出1-100
 
-### 并发推出机制
+### 并发退出机制
+
+- close channel to broadcast (fan in)
 
 
