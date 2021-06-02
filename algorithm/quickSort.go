@@ -26,6 +26,7 @@ func quickSort(array []int, left, right int) {
 		if right > left {
 			array[right], array[left] = array[left], array[right]
 		}
+		fmt.Printf("left=%v, right=%v, arrar=%v\n", left, right, array)
 	}
 	array[right], array[start] = temp, array[right]
 	quickSort(array, start, left)
