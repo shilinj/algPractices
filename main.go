@@ -1,7 +1,8 @@
 package main
 
 import (
-	"algstu/algorithm"
+	"algstu/interview/algorithm"
+	"algstu/learning/routine"
 )
 
 func main() {
@@ -17,5 +18,5 @@ func main() {
 	// concurrence.TestSyncCocurrent()
 	// concurrent.TestSyncWaitGroup()
 	// concurrent.TestCloseChToBroadcast1()
-	// concurrent.TestCloseChToBroadcast2()
+	routine.TestCloseChToBroadcast2()
 }
