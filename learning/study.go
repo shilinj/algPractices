@@ -5,6 +5,11 @@ import (
 )
 
 func TestDefer() {
-	lsyntax.DeferRunningTime()
-	lsyntax.DeferFuncArgs()
+	// lsyntax.DeferRunningTime()
+	// lsyntax.DeferFuncArgs()
+
+	// lsyntax.SliceCapAppend()
+
+	lsyntax.TestSwapInt()
+	lsyntax.TestSwapPoint()
 }
