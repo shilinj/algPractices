@@ -12,7 +12,7 @@ func DeferRunningTime() {
 	fmt.Println("func i =", i)
 }
 
-// defer func()的参数
+// defer func()的参数, 值传递
 func DeferFuncArgs() {
 	i := 0
 	defer fmt.Println("defer i = ", i)
