@@ -14,9 +14,13 @@ func main() {
 	// interview.AlternatelyPrintV2()
 
 	// concurrent
-	// concurrence.TestSyncCocurrent()
-	// concurrent.TestSyncWaitGroup()
-	// concurrent.TestCloseChToBroadcast1()
+	// routine.TestSyncCocurrent()
+	// routine.TestSyncWaitGroup()
+	// routine.TestCloseChToBroadcast1()
 	// routine.TestCloseChToBroadcast2()
-	learning.TestDefer()
+
+	// learning
+	// learning.TestDefer()
+	// learning.TestSlice()
+	learning.TestArgs()
 }
