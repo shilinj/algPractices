@@ -1,7 +1,7 @@
 package main
 
 import (
-	"algstu/learning"
+	"algstu/interview"
 )
 
 func main() {
@@ -11,7 +11,7 @@ func main() {
 	// algorithm.TestQuickSort()
 
 	// interview
-	// interview.AlternatelyPrintV2()
+	interview.AlternatelyPrintV1()
 
 	// concurrent
 	// routine.TestSyncCocurrent()
@@ -22,5 +22,5 @@ func main() {
 	// learning
 	// learning.TestDefer()
 	// learning.TestSlice()
-	learning.TestArgs()
+	// learning.TestArgs()
 }
